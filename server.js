@@ -4,7 +4,7 @@ const PORT = process.env.PORT || 3000; // bardzo istotna linijka - port zostaje 
 
 app.get("/", function (req, res) {
 
-    form = `<form action="/" method="GET">
+    form = `<form action="/data" method="GET">
             <input type="submit" value="przejdź do /data">
             </form>`
     res.send("<h1>My app on heroku! - zmiana w pliku</h1>" + form)
