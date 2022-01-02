@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "name": "testowygit",
+  "version": "1.0.0",
+  "description": "opis",
+  "main": "server.js",
+  "devDependencies": {},
+  "author": "km",
+  "license": "ISC"
+}
